@@ -32,7 +32,7 @@ header .navigation {
 
 .container {
   display: flex;
-  padding-top: 10px;
+  padding: 10px 20px 20px 10px;
   justify-content: space-around;
 }
 
@@ -58,6 +58,8 @@ header .navigation {
 
 .large .splitArticles {
   display: inline-flex;
+
+
 }
 
 .large .main {
@@ -73,7 +75,9 @@ header .navigation {
   font-weight: bold;
   font-size: 30px;
   color: white;
-  height: 200px;
+  height: 300px;
+  text-align: center;
+  width:300px;
 }
 
 .large .cameras {
@@ -81,7 +85,9 @@ header .navigation {
   font-weight: bold;
   font-size: 30px;
   color: white;
-  height: 200px;
+  height: 300px;
+  text-align: center;
+  width:300px;
 }
 
 .column .medium {
@@ -117,4 +123,42 @@ header .navigation {
   color: DimGray;
   margin: 0px;
   padding: 10px 20px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 300px;
+  width: 100%;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  justify-content: center;
+}
+
+footer .title {
+  display: inline-block;
+  padding-right: 25px;
+  border-right: 2px solid white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+footer nav {
+  display: inline-block;
+  padding-left: 25px;
+}
+
+.text a {
+  padding: 20px 20px;
+  color: black;
+}
+
+.copyright {
+  padding-top: 20px;
+  display: block;
 }
